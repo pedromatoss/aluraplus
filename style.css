@@ -159,3 +159,20 @@ body {
     text-align: center;
     margin: 5em 3em;
 }
+
+@media (max-width: 1225px) {
+    .conteudo-principal-texto {
+        justify-content: center;
+        text-align: center;
+    }
+    
+        .conteudo-principal {
+            display: flex;
+            flex-direction: column;
+    
+        }
+        .cafe {
+            margin-top: 5em;
+        }
+    
+    }
